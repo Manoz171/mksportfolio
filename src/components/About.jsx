@@ -1,18 +1,18 @@
 import React from 'react';
 
 const About = () => (
-  <section id="about" className="max-w-2xl mx-auto text-center pt-[150px] mb-24">
+  <section id="about" className="max-w-2xl mx-auto text-center pt-[150px] mb-12">
   <h2 className="text-7xl font-semibold mb-0 leading-tight">
     I Build 
   </h2>
   <h2 className="text-6xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-black">
-   What You Imagine...
+   What You Imagine
   </h2> 
     <p
   className="text-white italic text-lg mt-0"
   style={{ fontFamily: "'Pacifico', cursive" }}
 >
-  From Idea to Application
+  From Idea to Application...
 </p>
 <br /> <br />
 
