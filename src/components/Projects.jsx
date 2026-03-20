@@ -59,7 +59,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="max-w-6xl mx-auto pt-[150px] mb-112 px-4">
+    <section id='projects' className="max-w-6xl mx-auto pt-[150px] mb-112 px-4">
       <h2 className="text-3xl font-semibold mb-8 text-center">Projects</h2>
 
       {/* Scroll container */}
