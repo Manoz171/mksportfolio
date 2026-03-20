@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Moving single starfield background */
+body {
+  @apply text-gray-800 font-sans;
+
+  background-image: url('/src/assets/mbg.jpg'); /* single starfield image */
+  background-size: cover;     /* cover the screen */
+  background-repeat: no-repeat; /* do NOT repeat */
+  background-position: 0 0;   /* starting position */
+  
+}
+
+/* Smooth scrolling for in-page anchors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Pulse from center for the logo indicator */
+.pulse-center {
+  border-radius: 9999px;
+  transform-origin: center;
+  opacity: 0.8;
+  animation: pulseCenter 1.8s cubic-bezier(.4,0,.2,1) infinite;
+}
+
+@keyframes pulseCenter {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(2.2);
+    opacity: 0.0;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+}
+
+/* Floating elements (like header) */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Moving background */
+@keyframes movebg {
+  0% { background-position: 0 0; }
+  100% { background-position: -500px -500px; } /* moves diagonally */
+}
