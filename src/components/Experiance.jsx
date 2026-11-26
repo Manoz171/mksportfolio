@@ -2,29 +2,38 @@ import React from 'react';
 
 const experiences = [
     {
-    role: "Academic",
+    role: "Academic CGPA: 3.35",
     company: "Nobel Academic, New-Baneshwor",
     period: "2018 - 2020",
     desc: "NEB +2 level education focused core programming concepts and system design fundamentals"
   },
+  
   {
-    role: "",
-    company: "Personal ",
-    period: "",
-    desc: "Utilized Figma to design user interfaces, build prototypes, and develop responsive design systems with a focus on user experience and visual consistency."
-  },
-  {
-    role: "Academic",
+    role: "Academic CGPA: 3.33",
     company: "Madan Bhandari Memorial College",
-    period: "2021 - 2025",
+    period: "2020 - 2025",
     desc: "Comprehensive 4-year TU program focused on App Development, System Analysis, and Information Security."
 
   },
   {
     role: "Internship",
     company: "Intellisoft Nepal Pvt. Ltd.",
-    period: "2023 - 2024",
+    period: "Jan 2025 - Apr 2025",
     desc: " Worked on frontend development using React and Tailwind CSS, contributing to project features while practicing Agile development and collaborating within a team environment."
+  }, 
+
+  {
+    role: "Academic Project",
+    company: "Final Semister Project", 
+    period: "",
+    desc: "Developed a Health Checker System using React(Vite) for frontend, Python Django for backend, and Naive Bayes for health condition prediction using data(.csv)."
+  },
+
+  {
+    role: "",
+    company: "Personal ",
+    period: "",
+    desc: "Utilized Figma to design user interfaces, build prototypes, and develop responsive design systems with a focus on user experience and visual consistency."
   }
 ];
 

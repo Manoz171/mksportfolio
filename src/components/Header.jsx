@@ -96,7 +96,7 @@ const Header = () => {
 
       {/* Hero / Header Text */}
       <div className="text-center md:text-left mt-4">
-        <h2 className="text-xl md:text-xl font-bold  mb-2 animate-float ml-6">Developer</h2>
+        <h2 className="text-xl md:text-xl font-bold  mb-2 animate-float ml-6">Web Developer</h2>
       </div>
     </header>
   );

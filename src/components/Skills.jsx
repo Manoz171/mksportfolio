@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills = ["PHP", "JavaScript", "React", "Tailwind CSS", "MYSQL",];
+const skills = ["PHP", "JavaScript", "React", "Tailwind CSS", "MYSQL","python","Linux"];
 
 const Skills = () => (
   <section id="skills" className="max-w-5xl mx-auto pt-[150px] mb-20">

@@ -30,7 +30,7 @@ const About = () => (
         View Projects
       </a>
       <a
-        href="/src/assets/Manoz_CV.pdf"
+        href="/src/assets/manozresume.pdf"
         download
         className="px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-white font-semibold rounded shadow transition"
       >
